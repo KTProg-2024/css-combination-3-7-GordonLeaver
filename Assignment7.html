@@ -32,7 +32,46 @@
 	<head>
 	  <title>Selectors Exercise</title>
 	  <style>
-	  
+      body {
+        background-color:#bdc3c7;
+      }
+      h1 {
+        color:#9b59b6;
+      }
+      h2 {
+        color:orange;
+      }
+      li {
+        color:blue;
+      }
+      p {
+        background-color:yellow;
+      }
+      .hello {
+        background-color:white;
+      }
+      #special {
+        border-style:solid;
+        border-color:blue;
+      }
+      div > p {
+        font-size:25px;
+      }
+      div > p + p {
+        border-style:solid;
+        border-color:white;
+        border-size:5px;
+      }
+      .third {
+        background-color:pink;
+      }
+      .third > a {
+        font-size:25px;
+      }
+      a + a {
+        font-size:30px;
+      }
+      
 	  </style>
 	</head>
 	<body>
@@ -87,6 +126,6 @@
 		</div>
 
 		<p>PARAGRAPH NOT INSIDE A DIV</p>
-
+    <a href = "index.html">Home</a>
 	</body>
 </html>
